@@ -7,7 +7,7 @@
     teal: "#2fd0c4", green: "#3ee07a", blue: "#3aa0ff", orange: "#ff9b3d", amber: "#ffcc4d", navy: "#0d1a2e",
   };
   // one dashboard, two products: sidebar logo and header name per variant
-  const VARIANTS = { core: ["assets/models/oasis-logo-white.png", "OASIS CORE"], medical: ["assets/models/oasis-logo-medical-white.png", "OASIS MEDICAL"] };
+  const VARIANTS = { core: ["assets/models/oasis-logo-white.png", "OASIS CORE™"], medical: ["assets/models/oasis-logo-medical-white.png", "OASIS MEDICAL™"] };
   const logos = {};
   // logos load from wherever this script is hosted (the site itself, or the 3D asset host)
   const BASE = document.currentScript && document.currentScript.src ? document.currentScript.src.replace(/[^/]*$/, "") : "";
